@@ -11,7 +11,6 @@
 		<link rel="stylesheet" href="https://use.typekit.net/sma8eef.css"/>
 		<link rel="stylesheet" type="text/css" href="css/tooltip.css" />
 		<link rel="stylesheet" type="text/css" href="css/base.css" />
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
 		<script>document.documentElement.className="js";</script>
 	</head>
@@ -45,7 +44,10 @@
                             </ul>
 
                             <div class="video-container">
-                                <video controls autoplay loop muted poster="ruta-de-la-imagen.jpg">
+                                <video class="video-player" 
+								controls="controls"
+								controls preload="auto"
+								autoplay="autoplay" loop muted playsinline>
                                     <source src="img/recording (8)" type="video/mp4">
                                     Tu navegador no soporta la etiqueta de video.
                                 </video>

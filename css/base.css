@@ -791,7 +791,8 @@ body {
 .items {
   display: flex;
   gap: 0.4rem;
-  perspective: calc(var(--index) * 135);
+  text-align: center;
+  perspective: calc(var(--index) * 45);
 }
 
 .item {
@@ -885,7 +886,7 @@ body {
 .link-text {
   text-align: center;
   justify-content: center;
-  color: #fffbfb;
+  color: #fdfdfd;
 }
 
 .margin-txt {
